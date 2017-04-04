@@ -1,0 +1,15 @@
+XamlSamples.userprefs
+packages
+XamlSamples/obj
+XamlSamples/bin
+Droid/obj
+Droid/bin
+iOS/obj
+iOS/bin
+XamlSamples/Testo.xaml
+XamlSamples/Testo.xaml.cs
+XamlSamples/BigTesto.xaml
+XamlSamples/BigTesto.xaml.cs
+XamlSamples/Testx.xaml
+XamlSamples/Testx.xaml.cs
+Droid/Resources
