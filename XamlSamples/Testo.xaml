@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamlSamples.Testo"
+		Title="Absolute Layout Exploration">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Label Text="I'm centered on iPhone 4 but no other device"
+                AbsoluteLayout.LayoutBounds="115,150,100,100" LineBreakMode="WordWrap"  />
+            <Label Text="I'm bottom center on every device."
+                AbsoluteLayout.LayoutBounds=".5,1,.5,.1" AbsoluteLayout.LayoutFlags="All"
+                LineBreakMode="WordWrap"  />
+            <BoxView Color="Olive"  AbsoluteLayout.LayoutBounds="0.75,.5, 25, 100"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <BoxView Color="Red" AbsoluteLayout.LayoutBounds="0,.5,25,100"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <BoxView Color="Blue" AbsoluteLayout.LayoutBounds=".5,0,200,25"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
